@@ -20,7 +20,7 @@ public class Hangman {
     }
 
     //ToDo logic
-    //TODO Revise UML Diagram
+    //Todo Revise UML Diagram
     //[ ] Wordlist import and actual Wordlist from Mrs. S
     
 
