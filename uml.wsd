@@ -1,0 +1,26 @@
+@startuml help
+help themes
+@enduml
+
+@startuml hangmanCMD
+!theme cyborg-outline
+
+class Hangman{
+    -string begriff
+    -char[] fehler
+    -char[] richtig
+    -string versuch
+
+    +int getFehler()
+    +char[] getFehler()
+    +void neuesWort()
+    -char getInput()
+    -void inputValidieren(char input)
+    -void updateVersuch()
+}
+
+
+'file words{<<words.txt>>}
+'hangman --> words : use
+
+@enduml
